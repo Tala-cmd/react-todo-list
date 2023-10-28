@@ -1,5 +1,6 @@
 export function TodoItem( {id, completed, title, toggleTodo, deleteTodo } ){
     return (
+    <div className="todo-container">
     <li>
         <label>
         <input type='checkbox' checked={completed} 
@@ -11,6 +12,7 @@ export function TodoItem( {id, completed, title, toggleTodo, deleteTodo } ){
         onClick={() => deleteTodo(id)} 
         >Delete</button>
     </li>
+    </div>
     )
 
 }

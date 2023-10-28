@@ -43,6 +43,7 @@ function App() {
 
   return (
     <>
+    <p class="task-title">Task List</p>
     <NewTodoForm onSubmit={addTodo} />
     <h1 className="header" >Todo List</h1>
     <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
