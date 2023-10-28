@@ -14,7 +14,7 @@ body {
 background: #F5F5F5;
 display: flex;
 flex-direction: column;
-max-width: 400px;
+max-width: 500px;
 padding: 1rem;
 margin: 0 auto;
 }
@@ -183,4 +183,11 @@ font-weight: bold;
 
 .list li:has(input:checked) label:hover::before {
 background: hsl(200, 100%, 30%);
+}
+
+@media screen and (min-width: 576px){
+.zoomed {
+    transform: scale(1.2); 
+        
+    }
 }
