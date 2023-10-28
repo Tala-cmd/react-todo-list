@@ -188,6 +188,6 @@ background: hsl(200, 100%, 30%);
 @media screen and (min-width: 576px){
 .zoomed {
     transform: scale(1.2); 
-        
+    margin-top:20px;
     }
 }
